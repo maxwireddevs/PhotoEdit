@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Styleworks</string>
+
+    <string-array name="font_list">
+        <item>Contra</item>
+        <item>A little sunshine</item>
+        <item>Bold Riley</item>
+        <item>Bold Riley Oblique</item>
+        <item>Candelion</item>
+        <item>Candelion Bold</item>
+        <item>Fairytales</item>
+        <item>Funtastic</item>
+        <item>Gineva</item>
+        <item>Kelly slab</item>
+        <item>Kreon</item>
+        <item>Kreon Light</item>
+        <item>Kreon Bold</item>
+        <item>Limerence</item>
+        <item>Limerence Thin</item>
+        <item>Merriweather</item>
+        <item>Merriweather Light</item>
+        <item>Merriweather Bold</item>
+        <item>Merriweather Italic</item>
+        <item>Modern Serif</item>
+        <item>Modern Serif Italic</item>
+        <item>Napoleon</item>
+        <item>Open Sans</item>
+        <item>Open Sans Light</item>
+        <item>Open Sans Bold</item>
+        <item>Open Sans Italic</item>
+        <item>Pretzel</item>
+        <item>Quintessa</item>
+        <item>Sandglow</item>
+        <item>Sphere Sans</item>
+        <item>Wildwest</item>
+    </string-array>
+
+</resources>

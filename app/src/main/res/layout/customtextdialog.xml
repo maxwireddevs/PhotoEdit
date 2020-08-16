@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/customtext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ListView
+        android:id="@+id/fontslist"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/customtext"
+        />
+
+
+    <SeekBar
+        android:id="@+id/textsizeslider"
+        android:layout_height="15dp"
+        android:layout_width="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@id/textsizetitle"
+        android:layout_toLeftOf="@id/textsizetext"
+        />
+
+    <TextView
+        android:id="@+id/textsizetext"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/textsizetitle"
+        android:textAlignment="textStart"
+        />
+
+
+
+    <TextView
+        android:id="@+id/opacitytext"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/opacitytitle"
+        android:textAlignment="textStart"
+        />
+
+    <TextView
+        android:id="@+id/textsizetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Size"
+        android:layout_below="@id/fontslist"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        />
+
+    <SeekBar
+        android:id="@+id/opacityslider"
+        android:layout_height="15dp"
+        android:layout_width="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@id/opacitytitle"
+        android:layout_toLeftOf="@id/opacitytext"
+        />
+
+    <TextView
+        android:id="@+id/opacitytitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opacity"
+        android:layout_below="@id/textsizetitle"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/colourpreview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/pickcolourbutton"
+        android:layout_toLeftOf="@id/pickcolourbutton"
+        />
+
+    <Button
+        android:id="@+id/pickcolourbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Pick Colour"
+        android:layout_below="@id/opacitytitle"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

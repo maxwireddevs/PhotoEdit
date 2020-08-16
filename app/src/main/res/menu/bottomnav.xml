@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_filter"
+        android:icon="@drawable/filter"
+        android:title="Filters" />
+
+    <item
+        android:id="@+id/navigation_effect"
+        android:icon="@drawable/effects"
+        android:title="Effects"
+        />
+
+    <item
+        android:id="@+id/navigation_addons"
+        android:icon="@drawable/imagegallery"
+        android:title="Add-ons"
+        />
+
+    <item
+        android:id="@+id/navigation_tool"
+        android:icon="@drawable/tool"
+        android:title="Tools"
+        />
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/shop"
+        android:title="Shop"
+        />
+
+</menu>
